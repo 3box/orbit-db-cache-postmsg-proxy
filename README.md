@@ -1,5 +1,7 @@
 ## orbit-db-cache-postmsg-proxy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/3box/orbit-db-cache-postmsg-proxy.svg)](https://greenkeeper.io/)
+
 PostMessage Proxy Cache for orbit-db, wraps [orbit-db-cache](https://github.com/orbitdb/orbit-db-cache).
 
 #### Use Case
