@@ -7,18 +7,18 @@ class Cache {
   }
 
   async open () {
-    // TODO
-    throw new Error('Not implemented')
+    const open = caller('open', this.opts)
+    return await open()
   }
 
   async close () {
-    // TODO
-    throw new Error('Not implemented')
+    const close = caller('close', this.opts)
+    return await close()
   }
 
   async destroy () {
-    // TODO
-    throw new Error('Not implemented')
+    const destroy = caller('destroy', this.opts)
+    return await destroy()
   }
 
   async get (key) {
@@ -32,8 +32,8 @@ class Cache {
   }
 
   async del (key) {
-    // TODO
-    throw new Error('Not implemented')
+    const del = caller('del', this.opts)
+    return await del(key)
   }
 }
 
@@ -45,7 +45,8 @@ const Start = (opts) => {
        return new Cache(opts)
      },
      close: async () => {
-       throw new Error('Not implemented')
+       const closeAll = caller('closeAll', opts)
+       await closAll()
      },
    }
 }

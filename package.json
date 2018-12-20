@@ -1,6 +1,6 @@
 {
   "name": "orbit-db-cache-postmsg-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostMessage Proxy Local Cache for orbit-db",
   "main": "src/index.js",
   "scripts": {
