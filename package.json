@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Zach Ferland <zachferland@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "orbit-db-cache": "^0.2.4",
     "postmsg-rpc": "^2.4.0"
