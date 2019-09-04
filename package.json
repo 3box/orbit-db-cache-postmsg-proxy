@@ -9,7 +9,7 @@
   "author": "Zach Ferland <zachferland@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "orbit-db-cache": "^0.2.4",
+    "orbit-db-cache": "next",
     "postmsg-rpc": "^2.4.0"
   }
 }
